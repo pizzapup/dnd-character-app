@@ -1,0 +1,63 @@
+.display-scores {
+  border-radius: 10px;
+  border: 1px solid rgb(208, 208, 208);
+  padding: 15px;
+  max-width: 500px;
+}
+.score-card {
+  border-radius: 5px;
+  box-shadow: 0px 0px 1px 1px rgb(220, 220, 220);
+  max-width: 500px;
+  height: 80px;
+}
+.score-card ul {
+  list-style: none;
+  display: flex;
+  gap: 5px;
+  margin: 8px;
+  padding: 5px;
+}
+.score-card ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+.score-card ul li span {
+  font-size: 13px;
+}
+.score-card ul li ul {
+  list-style: none;
+  display: flex;
+  gap: 5px;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid aliceblue;
+}
+.score-card ul li ul li {
+  height: 1rem;
+  width: 1rem;
+  padding: 5px;
+  margin: 2px;
+  text-align: center;
+  border-radius: 5px;
+}
+.score-card ul li div {
+  padding-top: 8px;
+  margin-top: 4px;
+  text-align: center;
+}
+.final-scores {
+  box-shadow: none;
+  background: hsl(0, 0%, 97%);
+}
+.final-scores-title {
+  text-align: center;
+  padding-top: 5px;
+}
+.final-scores li {
+  background-color: white;
+  padding: 5px;
+  border-radius: 5;
+}

@@ -1,9 +1,12 @@
-function App() {
+import "./styles.css";
+import DiceMiniGame from "./components/DiceMiniGame/DiceMiniGame";
+
+const App = () => {
   return (
-    <div className="App">
-      <h1>Pizzapups 5E Character Designer</h1>
+    <div>
+      <DiceMiniGame />
     </div>
   );
-}
+};
 
 export default App;

@@ -1,24 +1,41 @@
-Absolutely! Let's adjust the emojis, using them selectively to maintain a clean and engaging look:
-
-# Pizzapup's 5E Character Generator 🐾🐉
+# Pizzapup's DND 5E Character Generator Web App 🐾🐉
 
 ## Description
 
-Welcome to Pizzapup's 5E Character Generator, a user-friendly web app that helps you create DND 5E characters for your epic campaigns!
+Welcome to Pizzapup's DND 5E Character Generator, a user-friendly web app that helps you create and customize characters for your epic campaigns!
 
-### Planned Features 🚀
+### Features 🚀
 
-- Basic character sheet data & display 📝
-- Online character sheet filling for convenience 
-- Save your characters to your device or print them 🖨️
-- Integrate 5E API for comprehensive game data 🌐
-- Optional user accounts & character saving 🗄️
-- Automatic stat calculations for seamless character creation 
-- Customized suggestions for spells, feats, etc. based on your preferences 💡
-- Helpful tooltips for better understanding 🛈🔍
-- Weapons & armor database for easy search & automatic stat calculation ⚔️🛡️
-- User-friendly creation walkthrough with dice rolling support 🎲
-- Visual customization options for personalized character sheets (including selective printing of helpful tooltips) 🎨 
-- Chatbot integration for character creation assistance 🤖
+1. **Basic Character Sheet & Display:** Create and view essential character data, including race, class, abilities, and more.
 
-Join us on an adventure as we create the ultimate character generator for your DND 5E journey! 🌟 🎉
+2. **Online Character Sheet & Saving:** Fill out character info, make selections for race/classes, and receive calculated ability bonuses, proficiencies, and starting equipment. Save your character sheets locally or create an account to store them in a database.
+
+3. **Automatic Stat Calculations:** Abilities and modifiers are automatically calculated based on dice rolling or user input.
+
+4. **Dice Rolling Feature:** Roll dice to generate scores and modifiers for abilities. Choose to generate random numbers on button click or manually input your own numbers.
+
+5. **Customized Suggestions:** Get personalized suggestions for spells, feats, and other character options based on your preferences and selections.
+
+6. **Tooltips & Help:** Enjoy a better understanding of game elements and mechanics with helpful tooltips.
+
+7. **Weapons & Armor Database:** Search for weapons and armor, with automatic stat calculations for equipped items.
+
+8. **User-Friendly Creation Walkthrough:** Follow a step-by-step walkthrough for character creation, guiding you through the process.
+
+9. **Visual Customization:** Personalize your character sheet's style, including selective printing of helpful tooltips.
+
+### Potential Future Enhancements 🌟
+
+10. **Chatbot Integration:** We are considering adding an AI chatbot to assist you during character creation and provide further guidance and suggestions.
+
+### Target Audience 👥
+
+Our app is designed for fans of DND and DND5E who are looking for a user-friendly and comprehensive character generator.
+
+### Data Source 🌐
+
+We are utilizing the DND5EAPI's GraphQL endpoint to retrieve comprehensive game data.
+
+Join us on an adventure as we create the ultimate character generator for your DND 5E journey! 🎉🌟
+
+
