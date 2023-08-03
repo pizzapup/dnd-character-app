@@ -15,9 +15,6 @@
   }
 }
 
-/* ROLL */
-
-/* INPUT */
 .input-roll-fields {
   display: flex;
   flex-wrap: wrap;
@@ -50,7 +47,7 @@ button {
   min-width: 150px;
   border: 2px solid transparent;
 }
-/* Button styles */
+
 button {
   padding: 15px;
   border-radius: 5px;
@@ -78,12 +75,10 @@ button:hover {
 
 @media only screen and (max-width: 430px) {
   .input-roll-fields label {
-    /* flex-direction: row-reverse; */
     gap: 10px;
     align-items: center;
     justify-content: center;
     max-width: 70px;
-    /* max-width: 300px; */
   }
   .input-roll-fields input {
     max-width: 65px;

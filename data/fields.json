@@ -1,0 +1,112 @@
+{
+  "characterName": {
+    "label": "Character Name",
+    "type": "text",
+    "defaultValue": "",
+    "required": true
+  },
+  "characterClass": {
+    "label": "Class",
+    "type": "select",
+    "options": [
+      "Barbarian",
+      "Bard",
+      "Cleric",
+      "Druid",
+      "Fighter",
+      "Monk",
+      "Paladin",
+      "Ranger",
+      "Rogue",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "defaultValue": "",
+    "required": true
+  },
+  "characterLevel": {
+    "label": "Level",
+    "type": "number",
+    "defaultValue": 1,
+    "required": true
+  },
+  "background": {
+    "label": "Background",
+    "type": "text",
+    "defaultValue": "",
+    "required": true
+  },
+  "race": {
+    "label": "Race",
+    "type": "text",
+    "defaultValue": "",
+    "required": true
+  },
+  "alignment": {
+    "label": "Alignment",
+    "type": "text",
+    "defaultValue": "",
+    "required": true
+  },
+  "experiencePoints": {
+    "label": "Experience Points",
+    "type": "number",
+    "defaultValue": 0,
+    "required": true
+  },
+  "abilities": {
+    "label": "Abilities",
+    "type": "group",
+    "fields": {
+      "strength": {
+        "label": "Strength",
+        "type": "number",
+        "defaultValue": 10,
+        "required": true
+      },
+      "dexterity": {
+        "label": "Dexterity",
+        "type": "number",
+        "defaultValue": 10,
+        "required": true
+      },
+      "constitution": {
+        "label": "Constitution",
+        "type": "number",
+        "defaultValue": 10,
+        "required": true
+      },
+      "intelligence": {
+        "label": "Intelligence",
+        "type": "number",
+        "defaultValue": 10,
+        "required": true
+      },
+      "wisdom": {
+        "label": "Wisdom",
+        "type": "number",
+        "defaultValue": 10,
+        "required": true
+      },
+      "charisma": {
+        "label": "Charisma",
+        "type": "number",
+        "defaultValue": 10,
+        "required": true
+      }
+    }
+  },
+  "traits": {
+    "label": "Traits",
+    "type": "textarea",
+    "defaultValue": "",
+    "required": false
+  },
+  "equipment": {
+    "label": "Equipment",
+    "type": "textarea",
+    "defaultValue": "",
+    "required": false
+  }
+}

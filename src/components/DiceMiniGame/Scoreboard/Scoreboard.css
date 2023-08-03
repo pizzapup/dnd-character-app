@@ -51,6 +51,7 @@
 .final-scores {
   box-shadow: none;
   background: hsl(0, 0%, 97%);
+  height: 100%;
 }
 .final-scores-title {
   text-align: center;

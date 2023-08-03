@@ -4,7 +4,7 @@ export default function Scoreboard({scores}) {
   return (
     <div className="display-scores">
       <div className="score-card final-scores">
-        <div className="final-scores-title">Scores:</div>
+        {/* <div className="final-scores-title">Scores:</div> */}
         <ul>
           {scores.map((score, i) => (
             <li key={`scoreKey-${i}-${score.score}`}>{score.score}</li>
