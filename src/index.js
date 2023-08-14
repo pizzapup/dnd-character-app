@@ -1,31 +1,22 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import {
-  ApolloProvider,
-  ApolloClient,
-  InMemoryCache,
-  createHttpLink,
-} from "@apollo/client";
+import {BrowserRouter} from "react-router-dom";
+import {ApolloClient, InMemoryCache, ApolloProvider} from "@apollo/client";
+
 import App from "./App";
 
-const httpLink = createHttpLink({
-  uri: "https://www.dnd5eapi.co/graphql",
-  // You can add any custom headers here if required
-  // headers: {
-
-  // }
-});
-
 const client = new ApolloClient({
-  link: httpLink,
+  uri: "https://www.dnd5eapi.co/graphql", // GraphQL API endpoint
   cache: new InMemoryCache(),
 });
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <ApolloProvider client={client}>
-    <React.StrictMode>
-      <App />
-    </React.StrictMode>
-  </ApolloProvider>
+  <React.StrictMode>
+    <BrowserRouter>
+      <ApolloProvider client={client}>
+        <App />
+      </ApolloProvider>
+    </BrowserRouter>
+  </React.StrictMode>
 );
